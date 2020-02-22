@@ -1,9 +1,9 @@
 # python-project-lvl2 @ hexlet.io
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/50e210e49aba8dc13b9d/maintainability)](https://codeclimate.com/github/aa989190f363e46d/python-project-lvl2/maintainability)
+ — 
+[![Test Coverage](https://api.codeclimate.com/v1/badges/50e210e49aba8dc13b9d/test_coverage)](https://codeclimate.com/github/aa989190f363e46d/python-project-lvl2/test_coverage)
+ — 
 [![Build Status](https://travis-ci.com/aa989190f363e46d/python-project-lvl2.svg?branch=master)](https://travis-ci.com/aa989190f363e46d/python-project-lvl2)
 
 # Generate diff
