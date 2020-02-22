@@ -29,3 +29,4 @@ Type `gendiff -h` to see parameters and options.
 
 ### Compare two flat json's
 
+[![asciicast](https://asciinema.org/a/sWiOkUIGN6KjKnbtgXPB83o0y.svg)](https://asciinema.org/a/sWiOkUIGN6KjKnbtgXPB83o0y)

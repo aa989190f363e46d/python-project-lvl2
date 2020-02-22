@@ -1,5 +1,5 @@
 from gendiff.cli.posix import get_args
-from gendiff.comparators.json_cmp import generate_diff
+from gendiff.comparators.json import generate_diff
 
 
 def main():
