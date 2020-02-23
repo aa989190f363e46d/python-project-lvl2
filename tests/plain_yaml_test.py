@@ -1,12 +1,12 @@
 import pytest
 from gendiff.comparators.plain_map import generate_diff
-from gendiff.parsers.json import parse
+from gendiff.parsers.yaml import parse
 
 
 def test_plain_json():
-    with open('tests/fixtures/plain_json_before.json') as old, \
-        open('tests/fixtures/plain_json_after.json') as new, \
-        open('tests/fixtures/plain_json_result.txt') as result:
+    with open('tests/fixtures/plain_yaml_before.yml') as old, \
+        open('tests/fixtures/plain_yaml_after.yml') as new, \
+        open('tests/fixtures/plain_yaml_result.txt') as result:
         old_map, new_map = parse(old), parse(new)
         test_diff = generate_diff(old_map, new_map).split('\n')
         ethalon_diff = result.read().split('\n')[:-1]

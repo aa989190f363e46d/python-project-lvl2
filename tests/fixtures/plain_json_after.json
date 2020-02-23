@@ -1,5 +1,5 @@
 {
-  "timeout": 20,
-  "verbose": true,
-  "host": "hexlet.io"
+  "key_modified": 20,
+  "key_inserted": true,
+  "key_constant": "constant string"
 }

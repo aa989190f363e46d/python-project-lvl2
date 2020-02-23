@@ -6,3 +6,5 @@ dist/
 *~
 pypi-token.pypi
 poetry.lock
+coverage.xml
+.coverage
