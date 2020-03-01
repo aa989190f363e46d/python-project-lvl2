@@ -1,6 +1,5 @@
 from gendiff.enums import ChangesEnum as changes
-from gendiff.diff_tree import get_state, get_key, get_val, \
-                              get_old_val, get_new_val
+from gendiff.diff_tree import get_state, get_key, get_val
 from typing import Mapping
 
 CH_TAGS = {changes.ADDED: 'added',
