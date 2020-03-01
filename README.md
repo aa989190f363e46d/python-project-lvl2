@@ -37,4 +37,4 @@ Type `gendiff -h` to see parameters and options.
 
 ### Compare two complex json, plain output
 
-[![asciicast](https://asciinema.org/a/RHWYaVLnMmp3F3Ve2eXsEGTeY.svg)](https://asciinema.org/a/RHWYaVLnMmp3F3Ve2eXsEGTeY)
+[![asciicast](https://asciinema.org/a/Shg5lfwtPhAvHKfK4ef0YJFn5.svg)](https://asciinema.org/a/Shg5lfwtPhAvHKfK4ef0YJFn5)

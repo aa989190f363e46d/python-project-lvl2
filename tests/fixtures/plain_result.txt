@@ -1,7 +1,3 @@
-{
-    key_constant: constant string
-  - key_modified: 50
-  + key_modified: 20
-  + key_inserted: True
-  - key_deleted: string for deletion
-}
+Property 'key_modified' was changed. From '50' to '20'
+Property 'key_inserted' was added with value: True
+Property 'key_deleted' was removed with value: string for deletion
