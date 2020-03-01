@@ -1,0 +1,7 @@
+{
+    key_constant: constant string
+  - key_modified: 50
+  + key_modified: 20
+  + key_inserted: True
+  - key_deleted: string for deletion
+}

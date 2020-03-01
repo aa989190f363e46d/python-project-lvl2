@@ -11,10 +11,11 @@ def load_yaml_parser():
     return parse
 
 
-PARSER_DICT = {'.yml': load_yaml_parser,
-               '.json': load_json_parser}
+PARSERS_DICT = {'.yml': load_yaml_parser,
+                '.yaml': load_yaml_parser,
+                '.json': load_json_parser}
 
 
 def select(file):
     _, ext = splitext(file.name)
-    return PARSER_DICT[ext]()
+    return PARSERS_DICT[ext]()

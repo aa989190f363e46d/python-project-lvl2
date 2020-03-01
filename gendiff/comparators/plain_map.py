@@ -1,4 +1,4 @@
-FSTR = '{} "{}": {}'
+FSTR = '{} {}: {}'
 
 
 def generate_diff(old_map, new_map):

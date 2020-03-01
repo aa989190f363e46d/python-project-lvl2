@@ -34,3 +34,7 @@ Type `gendiff -h` to see parameters and options.
 ### Compare two flat yaml's
 
 [![asciicast](https://asciinema.org/a/cQE6OqTXl15M4EvuZiAlbYW3x.svg)](https://asciinema.org/a/cQE6OqTXl15M4EvuZiAlbYW3x)
+
+### Compare two complex json, plain output
+
+[![asciicast](https://asciinema.org/a/RHWYaVLnMmp3F3Ve2eXsEGTeY.svg)](https://asciinema.org/a/RHWYaVLnMmp3F3Ve2eXsEGTeY)
