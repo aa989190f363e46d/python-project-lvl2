@@ -1,0 +1,39 @@
+diff:
+  common:
+    setting1:
+      event: preserve
+      value: Value 1
+    setting2:
+      event: delete
+      value: '200'
+    setting3:
+      event: preserve
+      value: true
+    setting4:
+      event: add
+      value: blah blah
+    setting5:
+      event: add
+      value:
+        key5: value5
+    setting6:
+      event: delete
+      value:
+        key: value
+  group1:
+    baz:
+      event: alternate
+      new_value: bars
+      old_value: bas
+    foo:
+      event: preserve
+      value: bar
+  group2:
+    event: delete
+    value:
+        abc: '12345'
+  group3:
+    event: add
+    value:
+        fee: '100500'
+

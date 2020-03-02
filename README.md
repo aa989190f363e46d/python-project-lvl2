@@ -1,9 +1,12 @@
 # python-project-lvl2 @ hexlet.io
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/50e210e49aba8dc13b9d/maintainability)](https://codeclimate.com/github/aa989190f363e46d/python-project-lvl2/maintainability)
+
  — 
+
 <!-- [![Test Coverage](https://api.codeclimate.com/v1/badges/50e210e49aba8dc13b9d/test_coverage)](https://codeclimate.com/github/aa989190f363e46d/python-project-lvl2/test_coverage)
  — -->
+
 [![Build Status](https://travis-ci.com/aa989190f363e46d/python-project-lvl2.svg?branch=master)](https://travis-ci.com/aa989190f363e46d/python-project-lvl2)
 
 # Generate diff
@@ -29,12 +32,20 @@ Type `gendiff -h` to see parameters and options.
 
 ### Compare two flat json's
 
-[![asciicast](https://asciinema.org/a/sWiOkUIGN6KjKnbtgXPB83o0y.svg)](https://asciinema.org/a/sWiOkUIGN6KjKnbtgXPB83o0y)
+[![asciicast](https://asciinema.org/a/9bqXcc4LNZSenlGoR14jGwqvZ.svg)](https://asciinema.org/a/9bqXcc4LNZSenlGoR14jGwqvZ)
 
 ### Compare two flat yaml's
 
-[![asciicast](https://asciinema.org/a/cQE6OqTXl15M4EvuZiAlbYW3x.svg)](https://asciinema.org/a/cQE6OqTXl15M4EvuZiAlbYW3x)
+[![asciicast](https://asciinema.org/a/O4aGR15B3UjjhUDuO4ICiwjhw.svg)](https://asciinema.org/a/O4aGR15B3UjjhUDuO4ICiwjhw)
 
 ### Compare two complex json, plain output
 
 [![asciicast](https://asciinema.org/a/Shg5lfwtPhAvHKfK4ef0YJFn5.svg)](https://asciinema.org/a/Shg5lfwtPhAvHKfK4ef0YJFn5)
+
+### Compare two complex json, json output
+
+[![asciicast](https://asciinema.org/a/38DWO2q5kUmkaOqVetlwyb5pE.svg)](https://asciinema.org/a/38DWO2q5kUmkaOqVetlwyb5pE)
+
+### Compare two complex json, yaml output
+
+[![asciicast](https://asciinema.org/a/aq7a6bOjzk7GKBKgtUHcQJNG4.svg)](https://asciinema.org/a/aq7a6bOjzk7GKBKgtUHcQJNG4)

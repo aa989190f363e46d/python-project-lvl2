@@ -52,7 +52,7 @@ def complex_result_txt():
 
 @pytest.fixture()
 def complex_diff():
-    from gendiff.enums import ChangesEnum as changes
+    from gendiff.diff_structure.enums import ChangesEnum as changes
     return  [[changes.NESTED, 'group1',
                 [[changes.INTACT, 'foo', 'bar'],
                  [changes.ALTERED, 'baz', ('bas', 'bars')]]],
@@ -65,3 +65,13 @@ def complex_diff():
                  [changes.REMOVED, 'setting2', '200']]],
             [changes.ADDED, 'group3', {'fee': '100500'}],
             [changes.REMOVED, 'group2', {'abc': '12345'}]]
+
+
+@pytest.fixture()
+def complex_result_json():
+    return open('tests/fixtures/complex_result_json.json')
+
+
+@pytest.fixture()
+def complex_result_yaml():
+    return open('tests/fixtures/complex_result_yaml.yml')

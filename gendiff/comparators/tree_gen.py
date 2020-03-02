@@ -1,5 +1,5 @@
-from gendiff.diff_tree import make_tree, add_altered, add_removed, \
-                              add_added, add_intact, add_nested
+from gendiff.diff_structure.tree import make_tree, add_altered, add_removed, \
+                                        add_added, add_intact, add_nested
 from typing import Mapping
 
 

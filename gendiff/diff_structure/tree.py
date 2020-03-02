@@ -1,4 +1,4 @@
-from gendiff.enums import ChangesEnum as changes
+from gendiff.diff_structure.enums import ChangesEnum as changes
 
 
 def make_tree():

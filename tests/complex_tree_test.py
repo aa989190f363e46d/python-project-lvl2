@@ -1,9 +1,9 @@
 import pytest
 from operator import contains
 
-from gendiff.enums import ChangesEnum as changes
-from gendiff.diff_tree import get_state, get_key, get_val, \
-                              get_old_val, get_new_val  
+from gendiff.diff_structure.enums import ChangesEnum as changes
+from gendiff.diff_structure.tree import get_state, get_key, get_val, \
+                                        get_old_val, get_new_val  
 from gendiff.comparators.tree_gen import generate_diff_tree as generate_diff
 from gendiff.parsers.json import parse
 
