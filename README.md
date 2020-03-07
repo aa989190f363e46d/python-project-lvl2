@@ -44,8 +44,8 @@ Type `gendiff -h` to see parameters and options.
 
 ### Compare two complex json, json output
 
-[![asciicast](https://asciinema.org/a/38DWO2q5kUmkaOqVetlwyb5pE.svg)](https://asciinema.org/a/38DWO2q5kUmkaOqVetlwyb5pE)
+[![asciicast](https://asciinema.org/a/z0HNkc45gJMNYw1Ze7mbUbmKZ.svg)](https://asciinema.org/a/z0HNkc45gJMNYw1Ze7mbUbmKZ)
 
 ### Compare two complex json, yaml output
 
-[![asciicast](https://asciinema.org/a/aq7a6bOjzk7GKBKgtUHcQJNG4.svg)](https://asciinema.org/a/aq7a6bOjzk7GKBKgtUHcQJNG4)
+[![asciicast](https://asciinema.org/a/FMi5gEQ8RAiCEJtamITfcBB7s.svg)](https://asciinema.org/a/FMi5gEQ8RAiCEJtamITfcBB7s)

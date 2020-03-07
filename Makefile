@@ -7,18 +7,15 @@ install:
 test:
 	poetry run pytest
 
-test-with-coverage:
-	poetry run pytest --cov=gendiff tests  --cov-report xml
-
 lint:
 	poetry run flake8 gendiff
 
 selfcheck:
 	poetry check
 
-check: selfcheck test lint
+check: selfcheck lint test
 
 build:
 	poetry build
 
-.PHONY: install lint selfcheck check build
+.PHONY: publish install test lint selfcheck check build
