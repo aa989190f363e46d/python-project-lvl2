@@ -5,6 +5,16 @@ from gendiff.diff_tree import generate_diff
 
 
 @pytest.fixture()
+def complex_json_old():
+    return open('tests/fixtures/complex_json_before.json')
+
+
+@pytest.fixture()
+def complex_json_new():
+    return open('tests/fixtures/complex_json_after.json')
+
+
+@pytest.fixture()
 def complex_diff():
     return [['NESTED','common',
                 [['INTACT','setting1','Value 1'],

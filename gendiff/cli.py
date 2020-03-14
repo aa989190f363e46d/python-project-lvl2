@@ -1,6 +1,7 @@
 from argparse import ArgumentParser, ArgumentTypeError
 from os.path import splitext
 
+import gendiff.formatters.tree
 import gendiff.formatters.plain
 import gendiff.formatters.json
 import gendiff.formatters.yaml
@@ -8,7 +9,8 @@ import gendiff.formatters.yaml
 
 OUTPUT_FROMATS_DICT = {'plain': gendiff.formatters.plain.format_diff,
                        'json': gendiff.formatters.json.format_diff,
-                       'yaml': gendiff.formatters.yaml.format_diff}
+                       'yaml': gendiff.formatters.yaml.format_diff,
+                       'tree': gendiff.formatters.tree.format_diff}
 
 INPUT_FILE_EXT_LIST = ['.json', '.yaml', '.yml']
 
@@ -40,7 +42,7 @@ def get_args():
     fmt_hlp_str = ("output format (one of {{{}}}, %(default)s"
                    " if omitted)").format(','.join(OUTPUT_FROMATS_DICT.keys()))
     parser.add_argument('-f', '--format', type=get_formatter,
-                        nargs='?', default='plain',
+                        nargs='?', default='tree',
                         metavar='FORMAT',
                         help=fmt_hlp_str)
     return parser.parse_args()

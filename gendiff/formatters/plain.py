@@ -1,15 +1,12 @@
 from typing import Mapping
 
-ADDED = 'ADDED'
-REMOVED = 'REMOVED'
-ALTERED = 'ALTERED'
-NESTED = 'NESTED'
+from gendiff.diff_tree import ADDED, REMOVED, ALTERED, NESTED
 
-CH_TAGS = {ADDED: 'added',
-           REMOVED: 'removed',
-           ALTERED: 'changed'}
+TAGS = {ADDED: 'added',
+        REMOVED: 'removed',
+        ALTERED: 'changed'}
 
-FRMT = "Property '{}' was {}{}"
+MESSAGE_FORMAT = "Property '{}' was {}{}"
 
 
 def format_diff(diff_tree, parent=''):
@@ -17,8 +14,8 @@ def format_diff(diff_tree, parent=''):
     for state, key, value in diff_tree:
         full_key = '{}.{}'.format(parent, key) if parent else key
         if state in (ADDED, REMOVED, ALTERED):
-            result.append(FRMT.format(full_key,
-                          CH_TAGS[state],
+            result.append(MESSAGE_FORMAT.format(full_key,
+                          TAGS[state],
                           format_value(value, state)))
         elif state == NESTED:
             result.append(format_diff(value, full_key))

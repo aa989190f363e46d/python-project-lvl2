@@ -2,13 +2,8 @@ import pytest
 
 
 @pytest.fixture()
-def complex_json_old():
-    return open('tests/fixtures/complex_json_before.json')
-
-
-@pytest.fixture()
-def complex_json_new():
-    return open('tests/fixtures/complex_json_after.json')
+def plain_result_plain():
+    return open('tests/fixtures/plain_result_plain.txt')
 
 
 @pytest.fixture()
@@ -17,13 +12,13 @@ def complex_result_yaml():
 
 
 @pytest.fixture()
-def plain_result_txt():
-    return open('tests/fixtures/plain_result.txt')
+def complex_result_plain():
+    return open('tests/fixtures/complex_result_plain.txt')
 
 
 @pytest.fixture()
-def complex_result_txt():
-    return open('tests/fixtures/complex_result.txt')
+def complex_result_tree():
+    return open('tests/fixtures/complex_result_tree.txt')
 
 
 @pytest.fixture()
